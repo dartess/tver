@@ -79,7 +79,7 @@ const TrainingSpeechToValueImplementation = ({ difficult }: Props) => {
     setAnswer(getRandomVariant());
   };
   const handleViewClick = () => setShowAnswer(true);
-  const handlePlay = () => (new Audio(`/audio/${answer}.wav`)).play();
+  const handlePlay = () => (new Audio(`/tver/audio/${answer}.wav`)).play();
 
   return (
     <Card variant="outlined">
