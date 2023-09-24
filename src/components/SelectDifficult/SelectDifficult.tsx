@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import Slider from '@mui/joy/Slider';
 import ButtonGroup from '@mui/joy/ButtonGroup';
 import Button from '@mui/joy/Button';

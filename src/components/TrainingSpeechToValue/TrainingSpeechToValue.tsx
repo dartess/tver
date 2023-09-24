@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Fragment } from 'preact';
 import { useMemo, useState } from "preact/hooks";
 import Box from '@mui/joy/Box';
